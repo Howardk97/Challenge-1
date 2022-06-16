@@ -1,0 +1,249 @@
+/* Setting a universal boarder to each element in the html document. It also setting the padding and margin 
+for each element in the html document. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Setting the background color for the body of the webpage. */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Setting a text-color with no text decoration to the 3 links in the header of the webpage. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Setting the font for the paragraphs at the bottom of the webpage. */
+p {
+    font-size: 16px;
+}
+
+/* Setting the padding, fonts, a background color, and a text color for the header of the webpage that contains the links.  */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Forcing the letters of Horiseon to be next to eachother in the header of the webpage. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Making the color of "seo" in Horiseon slightly darker */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Setting the padding, spacing, font, positioning, and text size for the links in the header of the page */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Place holder for the links in the header of the webpage. */
+.header div ul {
+    list-style-type: none;
+}
+
+/* Forcing the links to be next to eachother with space in between in the header of the webpage. */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Setting the height, width, bottom margin, image, and image position of the image in at the top of the 
+webpage just below the header. This also re-sizes the image to cover the entire portion of the webpage. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Setting the position of the pictures going left at the bottom of the page. Also sets a partial spacing between 
+the pictures going left and the picture (in the middle) going right at the bottom of the page. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Setting the position of the picture going right at the bottom of the page. Also sets a partial spacing between 
+the pictures going left and the picture (in the middle) going right at the bottom of the page. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Seting the width, location, and spacing between the blocks of three sections at the bottom of the page. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Setting the spacing, padding, width, height, font list, and background color of the block that contains the three
+topics with the discriptions and pictures. It also makes the block go to the left of the screen. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Setting the spacing between Lead Generation the top of the block and Brand Awareness and the color of Lead Generations text. */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Setting the spacing between Brand Awareness and Lead Generation and Brand Awareness and Cost Management. It also sets the text color
+of the Brand Awareness block. */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Setting the spacing between Cost Managment and Brand Awareness and Cost Management and Brand Awarenesss. It also sets the text color
+of the Brand Awareness block. */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Setting the space around the Lead Generation section and centering the text in the center of the section. */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Setting the space around the Brand Awareness section and centering the text in the center of the section. */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Setting the space around the Cost Management section and centering the text in the center of the section. */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Creating a block for the picture of the Lead Generation section and setting the spacing around and width it. */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Creating a block for the picture of the Brand Awarness section and setting the spacing around and width it. */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Creating a block for the picture of the Cost Management section and setting the spacing around and width it. */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Setting the spacing between the section containing the Search Engine Optimization and the section
+containing the Online Reputation Management at the bottom of the webpage. It also sets the size of the
+padding, height, font list, background color, and text color of the Search Engine Optimization section. */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Setting the spacing between the section containing the Online Reputation Management and the section containing Social 
+Media Marketing at the bottom of the webpage. It also sets the size of the padding, height, font list, background color, and text 
+color of the Online Reputation Management section. */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Setting the spacing between the section containing the Social Media Marketing and the bottom of the webpage. 
+It also sets the size of the padding, height, font list, background color, and text color of the Search Engine Optimization 
+section. */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Setting the maximum height of the image in the Search Engine Optomization section of the webpage. */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Setting the maximum height of the image in the Online Reputation Management section of the webpage. */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Setting the maximum height of the image in the Social Media Marketing section of the webpage. */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Settting the positioning and font size of the title of the Search Engine Optomization section of the webpage. */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Settting the positioning and font size of the title of the Online Reputation Management section of the webpage. */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Settting the positioning and font size of the title of the Social Media Marketing section of the webpage. */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Setting the padding, positioning, and font family of the footer of the webpage. It also centers the 
+text in the footer to the bottom center of the page.*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Setting the font size of the text in the footer of the webpage. */
+.footer h2 {
+    font-size: 20px;
+}
